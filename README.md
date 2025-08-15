@@ -4,10 +4,10 @@ Título do Projeto
 MyFlix
 
 Sobre
-O projeto tem a funcionalidade de cadastro, atualização, visualização e exlusão de filmes.
+O projeto tem a funcionalidade de cadastro, atualização, visualização e exclusão de filmes.
 
 Instalação
-o projeto deve ser excutado a parte da API e separada a parte da pagiana (UI) para que se comuniquem executado localmente. Para baixar, siga os passos abaixo: . Clone o repositório:
+o projeto deve ser executado a parte da API e separada a parte da página (UI) para que se comuniquem executado localmente. Para baixar, siga os passos abaixo: . Clone o repositório:
 
 
 ## Baixar
@@ -21,11 +21,11 @@ Instale as dependências:
 npm install 
 
 ## Uso
-### API: Sete o projeto API como principal no VisualStudio e execute.
+### API: Sete o projeto API como principal no Visual Studio e execute.
 
 <img width="1562" height="927" alt="image" src="https://github.com/user-attachments/assets/9b585150-afe4-488e-b484-33b1134b2627" />
 
-### UI: No visual Studio Code entre no projeto que esta na pasta separda e fora do projeto UI. Abra um terminal  e der o comando "npm start"
+### UI: No visual Studio Code entre no projeto que esta na pasta separada e fora do projeto UI. Abra um terminal  e der o comando "npm start"
 
 <img width="1796" height="942" alt="image" src="https://github.com/user-attachments/assets/5711c4a3-634d-48cd-b1ce-393d2aa00699" />
 
@@ -48,14 +48,6 @@ React
 Html 5
 BootStrap
 JavaScript
-
-
-
-
-
-
-
-
 
 
 
