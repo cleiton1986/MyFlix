@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyFlix.Repositorio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41aa65bf7b5fa66841411abcd5190d477bfd3028")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ccb2a6049e5edb85cdf7e06f0c06557a2b2ad88e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyFlix.Repositorio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyFlix.Repositorio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

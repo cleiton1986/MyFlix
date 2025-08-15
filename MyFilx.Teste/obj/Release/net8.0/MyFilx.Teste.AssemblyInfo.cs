@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyFilx.Teste")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d2e67d5a17200e1858c4bbf907d9ee3c1effc40")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ccb2a6049e5edb85cdf7e06f0c06557a2b2ad88e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyFilx.Teste")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyFilx.Teste")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
