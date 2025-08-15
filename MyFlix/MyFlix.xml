@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyFlix</name>
+    </assembly>
+    <members>
+        <member name="M:MyFlix.Controllers.AvaliacaoController.Get">
+            <summary>
+            Busca todas avaliacoes.
+            </summary>
+            <remarks> Busca todas avaliações de modo assíncrono.</remarks>
+            <returns>An <see cref="T:Microsoft.AspNetCore.Mvc.ActionResult"/> Retorna todas avaliações cadastradas,  ou um objeto vazio  se o filme não existir </returns>
+        </member>
+        <member name="M:MyFlix.Controllers.AvaliacaoController.Get(System.Int32)">
+            <summary>
+            Busca uma avaliacao por id.
+            </summary>
+            <param name="id">Indentifica a avaliacao por id </param>
+            <returns>An <see cref="T:Microsoft.AspNetCore.Mvc.ActionResult"/> retorna uma avaliação se encontrada, ou um objeto vazio  se o filme não existir.</returns>
+        </member>
+        <member name="M:MyFlix.Controllers.FilmesController.Get">
+            <summary>
+            Busca todos filmes.
+            </summary>
+            <remarks> Busca todos filmes de modo assíncrono.</remarks>
+            <returns>An <see cref="T:Microsoft.AspNetCore.Mvc.ActionResult"/> Retorna todos filmes cadastrado,  ou um objeto vazio  se o filme não existir </returns>
+        </member>
+        <member name="M:MyFlix.Controllers.FilmesController.Get(System.Int32)">
+            <summary>
+            Busca um filme por id.
+            </summary>
+            <param name="id">Indentifica o filme por id </param>
+            <returns>An <see cref="T:Microsoft.AspNetCore.Mvc.ActionResult"/> retorna um filme se encontrado, ou um objeto vazio  se o filme não existir.</returns>
+        </member>
+        <member name="M:MyFlix.Controllers.FilmesController.Post(MyFlix.AppServer.ViewModel.FilmesViewModel)">
+            <summary>
+            Cadastra um filme.
+            </summary>
+            <param name="filmesView"></param>
+            <returns>Filme cadastrado com sucesso, ou mensagem de erro tradada </returns>
+            <response code="400">Retorna erros de validação</response>
+            <response code="200">Filme cadastrado com sucesso!</response>
+            <param name="filmesView">Dados do filme a ser cadastro</param>
+        </member>
+        <member name="M:MyFlix.Controllers.FilmesController.Put(MyFlix.AppServer.ViewModel.FilmesViewModel)">
+            <summary>
+            Atualiza um filme.
+            </summary>
+            <param name="filmesView"></param>
+            <returns>Filme atualizado com sucesso, ou mensagem de erro tradada </returns>
+            <response code="400">Retorna erros de validação</response>
+            <response code="200">Filme atualizado com sucesso!</response>
+            <param name="filmesView">Dados do filme a ser filme</param>
+        </member>
+        <member name="M:MyFlix.Controllers.FilmesController.Delete(System.Int32)">
+            <summary>
+            Deleta um filme.
+            </summary>
+            <param name="filmesView"></param>
+            <returns>Filme Deletado com sucesso!</returns>
+            <response code="400">Retorna erros de validação</response>
+            <response code="200">Filme deletado com sucesso!</response>
+            <param name="filmesView">Dados do filme a ser deletado</param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "MyFlix\\MyFlix.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
